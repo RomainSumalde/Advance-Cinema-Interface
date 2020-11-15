@@ -20,7 +20,7 @@ namespace PBL_1st_Sem_Gr12
             InitializeComponent();
             panel1 = panForm;
         }
-        
+
         string cinema = "1";
         string time = "11:00AM";
         private void buttonClick(Button btn, string seatNumber)
@@ -28,7 +28,7 @@ namespace PBL_1st_Sem_Gr12
             string seatNum = seatNumber;
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time, seatNum));
-           // GetInfoForm aForm = new GetInfoForm(cinema, time);
+            // GetInfoForm aForm = new GetInfoForm(cinema, time);
             //aForm.Show();
         }
 
