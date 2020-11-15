@@ -80,11 +80,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(452, 112);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(947, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 17);
+            this.label1.Size = new System.Drawing.Size(22, 25);
             this.label1.TabIndex = 95;
-            this.label1.Text = "seatform2";
+            this.label1.Text = "x";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button28

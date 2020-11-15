@@ -280,7 +280,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PBL_1st_Sem_Gr12.Properties.Resources.loading_sht;
-            this.pictureBox3.Location = new System.Drawing.Point(891, 556);
+            this.pictureBox3.Location = new System.Drawing.Point(882, 567);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(88, 74);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
