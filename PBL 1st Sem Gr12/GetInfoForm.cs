@@ -33,5 +33,15 @@ namespace PBL_1st_Sem_Gr12
             Survey aForm = new Survey();
             aForm.Show();
         }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

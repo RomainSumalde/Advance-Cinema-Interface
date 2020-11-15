@@ -19,7 +19,6 @@ namespace PBL_1st_Sem_Gr12
             InitializeComponent();
             design();
         }
-        SeatForm aForm = new SeatForm();
 
         private void design()
         {
@@ -50,6 +49,8 @@ namespace PBL_1st_Sem_Gr12
         //Movie Button
         private void buttonMovie_Click_1(object sender, EventArgs e)
         {
+            comboBox1.Text = "";
+            comboBox2.Text = "";
             panelMain.Show();
             pictureBox3.Visible = false;
             this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -62,7 +63,7 @@ namespace PBL_1st_Sem_Gr12
         }
         private void buttonViewSeats_Click(object sender, EventArgs e)
         {
-            openForm(new SeatForm());
+            openForm(new SeatForm(panelMain));
             //SeatForm aForm = new SeatForm();
             //aForm.Show();
             hideSubMenu();
@@ -82,15 +83,24 @@ namespace PBL_1st_Sem_Gr12
             string time = comboBox1.Text;
             if (time == "11:00AM")
             {
-                openForm(new SeatForm());
+                openForm(new SeatForm(panelMain));
             }
             if (time == "4:00PM")
             {
-                openForm(new SeatForm2());
+                openForm(new SeatForm2(panelMain));
                 //SeatForm2 aForm = new SeatForm2();
                 //aForm.Show();
             }
-            if (time == string.Empty)
+            string time2 = comboBox2.Text;
+            if (time2 == "11:00AM")
+            {
+                openForm(new Seatform3(panelMain));
+            }
+            if (time2 == "4:00PM")
+            {
+                openForm(new Seatform4(panelMain));
+            }
+            if (time == "" || time2 == " ")
             {
                 MessageBox.Show("Invalid Time Entry! Please Try Again.", "Invalid Entry", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

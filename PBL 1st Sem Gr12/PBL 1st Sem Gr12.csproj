@@ -67,6 +67,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seatform3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seatform3.Designer.cs">
+      <DependentUpon>Seatform3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seatform4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seatform4.Designer.cs">
+      <DependentUpon>Seatform4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Survey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seatform3.resx">
+      <DependentUpon>Seatform3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seatform4.resx">
+      <DependentUpon>Seatform4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Survey.resx">
       <DependentUpon>Survey.cs</DependentUpon>

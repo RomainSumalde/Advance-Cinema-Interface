@@ -76,7 +76,7 @@
             this.panelSide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSide.Location = new System.Drawing.Point(0, 0);
             this.panelSide.Name = "panelSide";
-            this.panelSide.Size = new System.Drawing.Size(250, 633);
+            this.panelSide.Size = new System.Drawing.Size(250, 653);
             this.panelSide.TabIndex = 0;
             // 
             // panelHelp
@@ -274,7 +274,7 @@
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(250, 0);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(982, 633);
+            this.panelMain.Size = new System.Drawing.Size(982, 653);
             this.panelMain.TabIndex = 1;
             // 
             // pictureBox3
@@ -349,7 +349,8 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "11:00AM",
-            "4:00PM"});
+            "4:00PM",
+            " "});
             this.comboBox2.Location = new System.Drawing.Point(729, 511);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(197, 24);
@@ -360,7 +361,8 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "11:00AM",
-            "4:00PM"});
+            "4:00PM",
+            " "});
             this.comboBox1.Location = new System.Drawing.Point(56, 511);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(197, 24);
@@ -391,10 +393,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1232, 633);
+            this.ClientSize = new System.Drawing.Size(1232, 653);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelSide);
-            this.MinimumSize = new System.Drawing.Size(950, 650);
+            this.MinimumSize = new System.Drawing.Size(1050, 700);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Screen";

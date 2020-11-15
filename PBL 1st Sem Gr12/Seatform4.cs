@@ -7,34 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.IO;
 
 namespace PBL_1st_Sem_Gr12
 {
-    public partial class SeatForm : Form
+    public partial class Seatform4 : Form
     {
         Panel panel1;
-        public SeatForm(Panel panForm)
+        public Seatform4(Panel panForm)
         {
             InitializeComponent();
             panel1 = panForm;
         }
-        
-        string cinema = "1";
-        string time = "11:00AM";
+        string cinema = "2";
+        string time = "4:00PM";
         private void buttonClick(Button btn)
         {
             string seatNum = btn.ToString();
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time));
-           // GetInfoForm aForm = new GetInfoForm(cinema, time);
-            //aForm.Show();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -145,7 +141,6 @@ namespace PBL_1st_Sem_Gr12
         private void button22_Click(object sender, EventArgs e)
         {
             buttonClick(button22);
-
         }
 
         private void button23_Click(object sender, EventArgs e)

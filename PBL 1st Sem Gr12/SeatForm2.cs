@@ -12,9 +12,11 @@ namespace PBL_1st_Sem_Gr12
 {
     public partial class SeatForm2 : Form
     {
-        public SeatForm2()
+        Panel panel1;
+        public SeatForm2(Panel panForm)
         {
             InitializeComponent();
+            panel1 = panForm;
         }
 
         string cinema = "1";
@@ -23,8 +25,7 @@ namespace PBL_1st_Sem_Gr12
         {
             string seatNum = btn.ToString();
             btn.BackColor = Color.Red;
-            GetInfoForm aForm = new GetInfoForm(cinema, time);
-            aForm.Show();
+            openForm(new GetInfoForm(cinema, time));
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -180,6 +181,22 @@ namespace PBL_1st_Sem_Gr12
         private void button30_Click(object sender, EventArgs e)
         {
             buttonClick(button30);
+        }
+
+        private Form activeForm = null;
+
+        private void openForm(Form panelForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = panelForm;
+            panelForm.TopLevel = false;
+            panelForm.FormBorderStyle = FormBorderStyle.None;
+            panelForm.Dock = DockStyle.Fill;
+            panel1.Controls.Add(panelForm);
+            panel1.Tag = panelForm;
+            panelForm.BringToFront();
+            panelForm.Show();
         }
     }
 }
