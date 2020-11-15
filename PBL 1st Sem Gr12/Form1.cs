@@ -50,8 +50,6 @@ namespace PBL_1st_Sem_Gr12
         //Movie Button
         private void buttonMovie_Click_1(object sender, EventArgs e)
         {
-            //MovieForm aForm = new MovieForm();
-            //aForm.Show();
             panelMain.Show();
             pictureBox3.Visible = false;
             this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -84,13 +82,13 @@ namespace PBL_1st_Sem_Gr12
             string time = comboBox1.Text;
             if (time == "11:00AM")
             {
-                aForm.Show();
+                openForm(new SeatForm());
             }
             if (time == "4:00PM")
             {
                 openForm(new SeatForm2());
-                SeatForm2 aForm = new SeatForm2();
-                aForm.Show();
+                //SeatForm2 aForm = new SeatForm2();
+                //aForm.Show();
             }
             if (time == string.Empty)
             {
@@ -126,7 +124,7 @@ namespace PBL_1st_Sem_Gr12
                 activeForm.Close();
             activeForm = panelForm;
             panelForm.TopLevel = false;
-            //panelForm.FormBorderStyle = FormBorderStyle.None;
+            panelForm.FormBorderStyle = FormBorderStyle.None;
             panelForm.Dock = DockStyle.Fill;
             panelMain.Controls.Add(panelForm);
             panelMain.Tag = panelForm;
