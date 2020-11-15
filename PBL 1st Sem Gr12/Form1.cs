@@ -19,6 +19,7 @@ namespace PBL_1st_Sem_Gr12
             InitializeComponent();
             design();
         }
+        SeatForm aForm = new SeatForm();
 
         private void design()
         {
@@ -83,15 +84,13 @@ namespace PBL_1st_Sem_Gr12
             string time = comboBox1.Text;
             if (time == "11:00AM")
             {
-                openForm(new SeatForm());
-                //SeatForm aForm = new SeatForm();
-                //aForm.Show();
+                aForm.Show();
             }
             if (time == "4:00PM")
             {
                 openForm(new SeatForm2());
-                //SeatForm2 aForm = new SeatForm2();
-                //aForm.Show();
+                SeatForm2 aForm = new SeatForm2();
+                aForm.Show();
             }
             if (time == string.Empty)
             {

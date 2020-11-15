@@ -28,12 +28,57 @@ namespace PBL_1st_Sem_Gr12
 
         private void label1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             buttonClick(button1);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            buttonClick(button2);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            buttonClick(button3);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            buttonClick(button4);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            buttonClick(button5);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            buttonClick(button6);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            buttonClick(button7);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            buttonClick(button8);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            buttonClick(button9);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            buttonClick(button10);
         }
     }
 }

@@ -92,7 +92,7 @@
             this.button28.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button28.BackColor = System.Drawing.Color.SpringGreen;
             this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button28.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.Location = new System.Drawing.Point(700, 540);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(65, 55);
@@ -105,7 +105,7 @@
             this.button18.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button18.BackColor = System.Drawing.Color.SpringGreen;
             this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Location = new System.Drawing.Point(700, 428);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(65, 55);
@@ -118,7 +118,7 @@
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button8.BackColor = System.Drawing.Color.SpringGreen;
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(700, 311);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(65, 55);
@@ -131,7 +131,7 @@
             this.button24.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button24.BackColor = System.Drawing.Color.SpringGreen;
             this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button24.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(295, 540);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(65, 55);
@@ -144,7 +144,7 @@
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button14.BackColor = System.Drawing.Color.SpringGreen;
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(295, 428);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(65, 55);
@@ -157,7 +157,7 @@
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button4.BackColor = System.Drawing.Color.SpringGreen;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(295, 311);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(65, 55);
@@ -170,7 +170,7 @@
             this.button27.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button27.BackColor = System.Drawing.Color.SpringGreen;
             this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button27.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.Location = new System.Drawing.Point(599, 540);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(65, 55);
@@ -183,7 +183,7 @@
             this.button17.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button17.BackColor = System.Drawing.Color.SpringGreen;
             this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Location = new System.Drawing.Point(599, 428);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(65, 55);
@@ -196,7 +196,7 @@
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button7.BackColor = System.Drawing.Color.SpringGreen;
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(599, 311);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(65, 55);
@@ -209,7 +209,7 @@
             this.button23.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button23.BackColor = System.Drawing.Color.SpringGreen;
             this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button23.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(198, 540);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(65, 55);
@@ -222,7 +222,7 @@
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button13.BackColor = System.Drawing.Color.SpringGreen;
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(198, 428);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(65, 55);
@@ -235,7 +235,7 @@
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button3.BackColor = System.Drawing.Color.SpringGreen;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(198, 311);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(65, 55);
@@ -248,7 +248,7 @@
             this.button30.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button30.BackColor = System.Drawing.Color.SpringGreen;
             this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button30.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button30.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.Location = new System.Drawing.Point(904, 540);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(65, 55);
@@ -261,7 +261,7 @@
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button20.BackColor = System.Drawing.Color.SpringGreen;
             this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(904, 428);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(65, 55);
@@ -274,7 +274,7 @@
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button10.BackColor = System.Drawing.Color.SpringGreen;
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(904, 311);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(65, 55);
@@ -287,7 +287,7 @@
             this.button26.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button26.BackColor = System.Drawing.Color.SpringGreen;
             this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button26.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button26.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.Location = new System.Drawing.Point(498, 540);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(65, 55);
@@ -300,7 +300,7 @@
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button16.BackColor = System.Drawing.Color.SpringGreen;
             this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(498, 428);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(65, 55);
@@ -313,7 +313,7 @@
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button6.BackColor = System.Drawing.Color.SpringGreen;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(498, 311);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(65, 55);
@@ -326,7 +326,7 @@
             this.button22.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button22.BackColor = System.Drawing.Color.SpringGreen;
             this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Location = new System.Drawing.Point(102, 540);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(65, 55);
@@ -339,7 +339,7 @@
             this.button12.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button12.BackColor = System.Drawing.Color.SpringGreen;
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(102, 428);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(65, 55);
@@ -352,7 +352,7 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button2.BackColor = System.Drawing.Color.SpringGreen;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(102, 311);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(65, 55);
@@ -365,7 +365,7 @@
             this.button29.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button29.BackColor = System.Drawing.Color.SpringGreen;
             this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button29.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button29.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.Location = new System.Drawing.Point(802, 540);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(65, 55);
@@ -378,7 +378,7 @@
             this.button19.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button19.BackColor = System.Drawing.Color.SpringGreen;
             this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(802, 428);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(65, 55);
@@ -391,7 +391,7 @@
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button9.BackColor = System.Drawing.Color.SpringGreen;
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(802, 311);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(65, 55);
@@ -404,7 +404,7 @@
             this.button25.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button25.BackColor = System.Drawing.Color.SpringGreen;
             this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button25.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button25.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.Location = new System.Drawing.Point(396, 540);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(65, 55);
@@ -417,7 +417,7 @@
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button15.BackColor = System.Drawing.Color.SpringGreen;
             this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(396, 428);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(65, 55);
@@ -430,7 +430,7 @@
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button5.BackColor = System.Drawing.Color.SpringGreen;
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(396, 311);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(65, 55);
@@ -443,7 +443,7 @@
             this.button21.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button21.BackColor = System.Drawing.Color.SpringGreen;
             this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(10, 540);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(65, 55);
@@ -456,7 +456,7 @@
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button11.BackColor = System.Drawing.Color.SpringGreen;
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(10, 428);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(65, 55);
@@ -469,13 +469,14 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button1.BackColor = System.Drawing.Color.SpringGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(10, 311);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(65, 55);
             this.button1.TabIndex = 111;
             this.button1.Text = "A1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // SeatForm2
             // 

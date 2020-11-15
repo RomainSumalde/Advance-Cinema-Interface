@@ -21,5 +21,11 @@ namespace PBL_1st_Sem_Gr12
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Survey aForm = new Survey();
+            aForm.Show();
+        }
     }
 }
