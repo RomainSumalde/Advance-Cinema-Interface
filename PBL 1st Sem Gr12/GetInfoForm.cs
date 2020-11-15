@@ -12,11 +12,12 @@ namespace PBL_1st_Sem_Gr12
 {
     public partial class GetInfoForm : Form
     {
-        public GetInfoForm(string stringCinema, string stringTime)
+        public GetInfoForm(string stringCinema, string stringTime, string seatNumber)
         {
             InitializeComponent();
             comboBox2.Text = stringCinema;
             comboBox3.Text = stringTime;
+            textBox6.Text = seatNumber;
             this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             this.comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             this.comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;

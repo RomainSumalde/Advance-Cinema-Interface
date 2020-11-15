@@ -49,6 +49,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -196,7 +198,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(167, 492);
+            this.label8.Location = new System.Drawing.Point(167, 548);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 29);
             this.label8.TabIndex = 1;
@@ -208,7 +210,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Navy;
-            this.label9.Location = new System.Drawing.Point(169, 551);
+            this.label9.Location = new System.Drawing.Point(169, 607);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 29);
             this.label9.TabIndex = 1;
@@ -266,7 +268,7 @@
             this.comboBox3.Items.AddRange(new object[] {
             "11:00AM",
             "4:00PM"});
-            this.comboBox3.Location = new System.Drawing.Point(315, 492);
+            this.comboBox3.Location = new System.Drawing.Point(315, 548);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(140, 37);
@@ -274,7 +276,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(396, 598);
+            this.button1.Location = new System.Drawing.Point(396, 647);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 39);
@@ -308,18 +310,42 @@
             "Dec. 5, 2020",
             "Dec. 6, 2020",
             "Dec. 7, 2020"});
-            this.comboBox4.Location = new System.Drawing.Point(315, 543);
+            this.comboBox4.Location = new System.Drawing.Point(315, 599);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(208, 37);
             this.comboBox4.TabIndex = 2;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Navy;
+            this.label11.Location = new System.Drawing.Point(77, 491);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(155, 29);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Seat Number";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.Navy;
+            this.textBox6.Location = new System.Drawing.Point(315, 491);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(64, 34);
+            this.textBox6.TabIndex = 0;
             // 
             // GetInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(981, 650);
+            this.ClientSize = new System.Drawing.Size(1121, 711);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -339,6 +365,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -375,5 +402,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
