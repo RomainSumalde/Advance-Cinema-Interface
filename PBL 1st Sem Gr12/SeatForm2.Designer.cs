@@ -546,6 +546,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(1032, 703);
             this.MinimumSize = new System.Drawing.Size(982, 633);
             this.Name = "SeatForm2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

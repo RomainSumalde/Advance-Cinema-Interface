@@ -139,11 +139,11 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Navy;
-            this.label4.Location = new System.Drawing.Point(91, 252);
+            this.label4.Location = new System.Drawing.Point(49, 257);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 29);
+            this.label4.Size = new System.Drawing.Size(187, 29);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Contact Info";
+            this.label4.Text = "Contact Number";
             // 
             // textBox5
             // 
@@ -242,7 +242,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(140, 37);
             this.comboBox1.TabIndex = 2;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
@@ -347,7 +346,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(1121, 711);
+            this.ClientSize = new System.Drawing.Size(1032, 703);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -373,7 +372,8 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(981, 633);
+            this.MaximumSize = new System.Drawing.Size(1032, 703);
+            this.MinimumSize = new System.Drawing.Size(982, 633);
             this.Name = "GetInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GetInfoForm";

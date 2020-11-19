@@ -512,7 +512,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 586);
+            this.ClientSize = new System.Drawing.Size(982, 633);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button8);
@@ -546,6 +546,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(1032, 703);
             this.MinimumSize = new System.Drawing.Size(982, 633);
             this.Name = "Seatform3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
