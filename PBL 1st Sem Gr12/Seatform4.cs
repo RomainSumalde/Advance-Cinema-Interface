@@ -27,6 +27,8 @@ namespace PBL_1st_Sem_Gr12
             string seatNum = seatNumber;
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time, seatNum));
+
+            this.Hide();
             // GetInfoForm aForm = new GetInfoForm(cinema, time);
             //aForm.Show();
         }
@@ -201,6 +203,11 @@ namespace PBL_1st_Sem_Gr12
             panel1.Tag = panelForm;
             panelForm.BringToFront();
             panelForm.Show();
+        }
+
+        private void Seatform4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
