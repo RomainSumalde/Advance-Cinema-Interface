@@ -76,7 +76,7 @@
             this.panelSide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSide.Location = new System.Drawing.Point(0, 0);
             this.panelSide.Name = "panelSide";
-            this.panelSide.Size = new System.Drawing.Size(250, 653);
+            this.panelSide.Size = new System.Drawing.Size(250, 677);
             this.panelSide.TabIndex = 0;
             // 
             // panelHelp
@@ -274,15 +274,15 @@
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(250, 0);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(982, 653);
+            this.panelMain.Size = new System.Drawing.Size(1032, 677);
             this.panelMain.TabIndex = 1;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PBL_1st_Sem_Gr12.Properties.Resources.loading_sht;
-            this.pictureBox3.Location = new System.Drawing.Point(882, 567);
+            this.pictureBox3.Location = new System.Drawing.Point(178, 557);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(88, 74);
+            this.pictureBox3.Size = new System.Drawing.Size(173, 98);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -303,7 +303,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Cyan;
-            this.label4.Location = new System.Drawing.Point(741, 465);
+            this.label4.Location = new System.Drawing.Point(791, 465);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(185, 24);
             this.label4.TabIndex = 6;
@@ -315,7 +315,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Cyan;
-            this.label2.Location = new System.Drawing.Point(782, 436);
+            this.label2.Location = new System.Drawing.Point(832, 436);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 24);
             this.label2.TabIndex = 7;
@@ -351,7 +351,7 @@
             "11:00AM",
             "4:00PM",
             " "});
-            this.comboBox2.Location = new System.Drawing.Point(729, 511);
+            this.comboBox2.Location = new System.Drawing.Point(779, 511);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(197, 24);
             this.comboBox2.TabIndex = 1;
@@ -372,7 +372,7 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::PBL_1st_Sem_Gr12.Properties.Resources.avengers_endgame_movie_poster_2;
-            this.pictureBox2.Location = new System.Drawing.Point(694, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(744, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(261, 383);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -393,7 +393,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1232, 653);
+            this.ClientSize = new System.Drawing.Size(1282, 677);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelSide);
             this.MinimumSize = new System.Drawing.Size(1050, 700);

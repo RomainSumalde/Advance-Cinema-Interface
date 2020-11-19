@@ -100,7 +100,7 @@ namespace PBL_1st_Sem_Gr12
             {
                 openForm(new Seatform4(panelMain));
             }
-            if (time == "" || time2 == " ")
+            if (time == " " || time2 == " ")
             {
                 MessageBox.Show("Invalid Time Entry! Please Try Again.", "Invalid Entry", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -140,6 +140,11 @@ namespace PBL_1st_Sem_Gr12
             panelMain.Tag = panelForm;
             panelForm.BringToFront();
             panelForm.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
