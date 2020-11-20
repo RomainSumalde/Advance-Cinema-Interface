@@ -205,5 +205,10 @@ namespace PBL_1st_Sem_Gr12
             panelForm.BringToFront();
             panelForm.Show();
         }
+
+        private void SeatForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

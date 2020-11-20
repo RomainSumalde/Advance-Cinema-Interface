@@ -31,123 +31,7 @@ namespace PBL_1st_Sem_Gr12
         string q10answer = "";
         string q11answer = "";
 
-        /* int q1answer = 1;
-         int q2answer = 1;
-         int q3answer = 1;
-         int q4answer = 1;
-         int q5answer = 1;
-         int q6answer = 1;
-         int q7answer = 1;
-         int q8answer = 1;
-         int q9answer = 1;
-         int q10answer = 1;
-         int q11answer = 1; //2 = yes, 1 = no*/
-
-        //public void ifelseStatement()
-        //{
-        //    string q1String;
-        //    string q2String;
-        //    string q3String;
-        //    string q4String;
-        //    string q5String;
-        //    string q6String;
-        //    string q7String;
-        //    string q8String;
-        //    string q9String;
-        //    string q10String;
-        //    string q11String;
-        //    string yes = "Yes";
-        //    string no = "No";
-        //    if (q1answer == 1)
-        //    {
-        //        q1String = no;
-        //    }
-        //    else
-        //    {
-        //        q1String = yes;
-        //    }
-        //    if (q2answer == 1)
-        //    {
-        //        q2String = no;
-        //    }
-        //    else
-        //    {
-        //        q2String = yes;
-        //    }
-        //    if (q3answer == 1)
-        //    {
-        //        q3String = no;
-        //    }
-        //    else
-        //    {
-        //        q3String = yes;
-        //    }
-        //    if (q4answer == 1)
-        //    {
-        //        q4String = no;
-        //    }
-        //    else
-        //    {
-        //        q4String = yes;
-        //    }
-        //    if (q5answer == 1)
-        //    {
-        //        q5String = no;
-        //    }
-        //    else
-        //    {
-        //        q5String = yes;
-        //    }
-        //    if (q6answer == 1)
-        //    {
-        //        q6String = no;
-        //    }
-        //    else
-        //    {
-        //        q6String = yes;
-        //    }
-        //    if (q7answer == 1)
-        //    {
-        //        q7String = no;
-        //    }
-        //    else
-        //    {
-        //        q7String = yes;
-        //    }
-        //    if (q8answer == 1)
-        //    {
-        //        q8String = no;
-        //    }
-        //    else
-        //    {
-        //        q8String = yes;
-        //    }
-        //    if (q9answer == 1)
-        //    {
-        //        q9String = no;
-        //    }
-        //    else
-        //    {
-        //        q9String = yes;
-        //    }
-        //    if (q10answer == 1)
-        //    {
-        //        q10String = no;
-        //    }
-        //    else
-        //    {
-        //        q10String = yes;
-        //    }
-        //    if (q11answer == 1)
-        //    {
-        //        q11String = no;
-        //    }
-        //    else
-        //    {
-        //        q11String = yes;
-        //    }
-        //}
-
+        
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             checkBox2.Checked = false;
@@ -282,40 +166,43 @@ namespace PBL_1st_Sem_Gr12
         private void button1_Click(object sender, EventArgs e)
         {
             //dito nalang natin lagay yung mga sesend sa database
-            //string nameString = textBox1.Text;
+            string nameString = textBox1.Text;
             //ifelseStatement();
-            //string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
-            //SqlConnection connection = new SqlConnection(connectionString);
-            //connection.Open();
-            //string queryString = "INSERT INTO surveyPBL VALUES(@Name, @Q1, @Q2, @Q3, @Q4, @Q5, @Q6, @Q7, @Q8, @Q9, @Q10, @Q11)";
-            //SqlParameter param1 = new SqlParameter("@Name", nameString);
-            //SqlParameter param2 = new SqlParameter("@Q1", q1answer);
-            //SqlParameter param3 = new SqlParameter("@Q2", q2answer);
-            //SqlParameter param4 = new SqlParameter("@Q3", q3answer);
-            //SqlParameter param5 = new SqlParameter("@Q4", q4answer);
-            //SqlParameter param6 = new SqlParameter("@Q5", q5answer);
-            //SqlParameter param7 = new SqlParameter("@Q6", q6answer);
-            //SqlParameter param8 = new SqlParameter("@Q7", q7answer);
-            //SqlParameter param9 = new SqlParameter("@Q8", q8answer);
-            //SqlParameter param10 = new SqlParameter("@Q9", q9answer);
-            //SqlParameter param11 = new SqlParameter("@Q10", q10answer);
-            //SqlParameter param12 = new SqlParameter("@Q11", q11answer);
-            //SqlCommand command = new SqlCommand(queryString, connection);
-            //command.Parameters.Add(param1);
-            //command.Parameters.Add(param2);
-            //command.Parameters.Add(param3);
-            //command.Parameters.Add(param4);
-            //command.Parameters.Add(param5);
-            //command.Parameters.Add(param6);
-            //command.Parameters.Add(param7);
-            //command.Parameters.Add(param8);
-            //command.Parameters.Add(param9);
-            //command.Parameters.Add(param10);
-            //command.Parameters.Add(param11);
-            //command.Parameters.Add(param12);
-            //command.ExecuteNonQuery();
-            //connection.Close();
-            //MessageBox.Show("Thank you for your cooperation.", "Covid Survey", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            string queryString = "INSERT INTO surveyPBL VALUES(@Name, @Q1, @Q2, @Q3, @Q4, @Q5, @Q6, @Q7, @Q8, @Q9, @Q10, @Q11)";
+            SqlParameter param1 = new SqlParameter("@Name", nameString);
+            SqlParameter param2 = new SqlParameter("@Q1", q1answer);
+            SqlParameter param3 = new SqlParameter("@Q2", q2answer);
+            SqlParameter param4 = new SqlParameter("@Q3", q3answer);
+            SqlParameter param5 = new SqlParameter("@Q4", q4answer);
+            SqlParameter param6 = new SqlParameter("@Q5", q5answer);
+            SqlParameter param7 = new SqlParameter("@Q6", q6answer);
+            SqlParameter param8 = new SqlParameter("@Q7", q7answer);
+            SqlParameter param9 = new SqlParameter("@Q8", q8answer);
+            SqlParameter param10 = new SqlParameter("@Q9", q9answer);
+            SqlParameter param11 = new SqlParameter("@Q10", q10answer);
+            SqlParameter param12 = new SqlParameter("@Q11", q11answer);
+            SqlCommand command = new SqlCommand(queryString, connection);
+            command.Parameters.Add(param1);
+            command.Parameters.Add(param2);
+            command.Parameters.Add(param3);
+            command.Parameters.Add(param4);
+            command.Parameters.Add(param5);
+            command.Parameters.Add(param6);
+            command.Parameters.Add(param7);
+            command.Parameters.Add(param8);
+            command.Parameters.Add(param9);
+            command.Parameters.Add(param10);
+            command.Parameters.Add(param11);
+            command.Parameters.Add(param12);
+            command.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Thank you for your cooperation.", "Covid Survey", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            checkBox1.Checked = false; checkBox2.Checked = false; checkBox3.Checked = false; checkBox4.Checked = false;
+            checkBox5.Checked = false; checkBox6.Checked = false; checkBox7.Checked = false; checkBox8.Checked = false;
+            checkBox9.Checked = false; checkBox10.Checked = false; checkBox11.Checked = false;
             this.Close();
         }
 

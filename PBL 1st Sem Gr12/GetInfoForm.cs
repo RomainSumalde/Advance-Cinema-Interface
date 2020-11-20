@@ -98,5 +98,9 @@ namespace PBL_1st_Sem_Gr12
             }
         }
 
+        private void GetInfoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

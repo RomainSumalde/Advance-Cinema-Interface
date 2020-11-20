@@ -1,1 +1,1 @@
-CREATE DATABASE Cinema;
+SELECT * FROM surveyPBL;

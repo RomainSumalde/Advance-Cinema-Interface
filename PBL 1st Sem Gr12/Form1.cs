@@ -14,6 +14,7 @@ namespace PBL_1st_Sem_Gr12
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -72,6 +73,7 @@ namespace PBL_1st_Sem_Gr12
         private void buttonViewRecords_Click(object sender, EventArgs e)
         {
             openForm(new RecordForm());
+       
             //RecordForm aForm = new RecordForm();
             //aForm.Show();
             hideSubMenu();
