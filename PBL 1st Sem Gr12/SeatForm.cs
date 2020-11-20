@@ -28,9 +28,8 @@ namespace PBL_1st_Sem_Gr12
             string seatNum = seatNumber;
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time, seatNum));
-
-            this.Hide();
-            // GetInfoForm aForm = new GetInfoForm(cinema, time);
+            //this.Hide();
+            //GetInfoForm aForm = new GetInfoForm(cinema, time, seatNum);
             //aForm.Show();
         }
 

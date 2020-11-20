@@ -21,13 +21,12 @@ namespace PBL_1st_Sem_Gr12
 
         string cinema = "1";
         string time = "4:00PM";
-        private void buttonClick(Button btn, string seatNumber)
+        public void buttonClick(Button btn, string seatNumber)
         {
             string seatNum = seatNumber;
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time, seatNum));
-            
-            this.Hide();
+            //this.Hide();
             // GetInfoForm aForm = new GetInfoForm(cinema, time);
             //aForm.Show();
         }
