@@ -88,6 +88,8 @@ namespace PBL_1st_Sem_Gr12
             if (time == "4:00PM")
             {
                 openForm(new SeatForm2(panelMain));
+                //SeatForm2 aForm = new SeatForm2();
+                //aForm.Show();
             }
             string time2 = comboBox2.Text;
             if (time2 == "11:00AM")

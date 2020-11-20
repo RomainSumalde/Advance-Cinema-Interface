@@ -80,9 +80,20 @@ namespace PBL_1st_Sem_Gr12
                 Survey aForm = new Survey(nameString);
                 aForm.Show();
                 this.Hide();
+                //textBox1.Text = string.Empty;
+                //textBox2.Text = string.Empty;
+                //comboBox1.Text = string.Empty;
+                //textBox3.Text = string.Empty;
+                //textBox4.Text = string.Empty;
+                //textBox5.Text = string.Empty;
+                //comboBox2.Text = string.Empty;
+                //comboBox3.Text = string.Empty;
+                //comboBox4.Text = string.Empty;
+                //textBox1.Focus();
             }
             if (!allPopulatedBool)
             {
+                // This instance wherein not all fields are populated
                 MessageBox.Show("Please fill out all information. ", "Incomplete Entry of Customer Details", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
