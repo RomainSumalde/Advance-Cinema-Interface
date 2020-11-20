@@ -25,7 +25,6 @@ namespace PBL_1st_Sem_Gr12
         {
             //Hides Panel of View and Help
             panelView.Visible = false;
-            panelHelp.Visible = false;
         }
 
         private void hideSubMenu()
@@ -33,8 +32,6 @@ namespace PBL_1st_Sem_Gr12
             //Hides if One of the Panel is Open
             if (panelView.Visible == true)
                 panelView.Visible = false;
-            if (panelHelp.Visible == true)
-                panelHelp.Visible = false;
         }
 
         private void showSubMenu(Panel subMenu)
@@ -111,7 +108,7 @@ namespace PBL_1st_Sem_Gr12
         //Help Button
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelHelp);
+
         }
         private void buttonHelpContact_Click(object sender, EventArgs e)
         {
