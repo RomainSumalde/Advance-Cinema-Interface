@@ -31,6 +31,7 @@ namespace PBL_1st_Sem_Gr12
             adapt.Fill(table);
             this.dataGridView1.DataSource = table;
             command1.ExecuteNonQuery();
+            dataGridView1.BackColor = Color.WhiteSmoke;
             string surveyString = "SELECT * FROM surveyPBL;";
             SqlCommand command2 = new SqlCommand(surveyString, connection);
             adapt = new SqlDataAdapter(surveyString, connection);
@@ -38,6 +39,7 @@ namespace PBL_1st_Sem_Gr12
             adapt.Fill(table);
             this.dataGridView2.DataSource = table;
             command2.ExecuteNonQuery();
+            dataGridView2.BackColor = Color.WhiteSmoke;
             connection.Close();
         }
 

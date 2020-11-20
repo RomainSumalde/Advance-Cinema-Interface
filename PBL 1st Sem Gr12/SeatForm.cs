@@ -26,10 +26,24 @@ namespace PBL_1st_Sem_Gr12
         private void buttonClick(Button btn, string seatNumber)
         {
             string seatNum = seatNumber;
+            //reader sa database
+            string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            string queryString = "SELECT SeatNumber FROM infoPBL;";
+            SqlCommand command = new SqlCommand(queryString, connection);
+            var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string Seat = reader["SeatNumber"].ToString();
+                btn.BackColor = Color.Red;
+            }
+            reader.Close();
+            connection.Close();
             btn.BackColor = Color.Red;
             openForm(new GetInfoForm(cinema, time, seatNum));
 
-            this.Hide();
+            
             // GetInfoForm aForm = new GetInfoForm(cinema, time);
             //aForm.Show();
         }
@@ -208,7 +222,20 @@ namespace PBL_1st_Sem_Gr12
 
         private void SeatForm_Load(object sender, EventArgs e)
         {
-
+            //reader sa database
+            string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            string queryString = "SELECT SeatNumber FROM infoPBL;";
+            SqlCommand command = new SqlCommand(queryString, connection);
+            var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string Seat = reader["SeatNumber"].ToString();
+            }
+            reader.Close();
+            connection.Close();
+           
         }
     }
 }

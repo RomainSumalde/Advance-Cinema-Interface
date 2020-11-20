@@ -110,20 +110,6 @@ namespace PBL_1st_Sem_Gr12
         {
 
         }
-        private void buttonHelpContact_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
-
-        private void buttonHelpLocation_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
-
-        private void buttonHelpAboutUs_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
 
         private Form activeForm = null;
 
@@ -133,7 +119,7 @@ namespace PBL_1st_Sem_Gr12
                 activeForm.Close();
             activeForm = panelForm;
             panelForm.TopLevel = false;
-            panelForm.FormBorderStyle = FormBorderStyle.None;
+            //panelForm.FormBorderStyle = FormBorderStyle.None;
             panelForm.Dock = DockStyle.Fill;
             panelMain.Controls.Add(panelForm);
             panelMain.Tag = panelForm;
@@ -141,9 +127,5 @@ namespace PBL_1st_Sem_Gr12
             panelForm.Show();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
