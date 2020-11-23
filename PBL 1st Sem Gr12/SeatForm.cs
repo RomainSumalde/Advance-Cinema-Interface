@@ -23,15 +23,26 @@ namespace PBL_1st_Sem_Gr12
 
         string cinema = "1";
         string time = "11:00AM";
-        private void buttonClick(Button btn, string seatNumber)
+        private void buttonClick(string seatNumber)
         {
             string seatNum = seatNumber;
-            btn.BackColor = Color.Red;
+            foreach (Control button in panel2.Controls.OfType<Button>())
+            {
+                if (button.Text == seatNum)
+                {
+                    button.BackColor = Color.Red;
+                    button.Enabled = false;
+                }
+            }
             openForm(new GetInfoForm(cinema, time, seatNum));
-
-            
+            //seatNum.BackColor = Color.Red;
+            //btn.BackColor = Color.Red;
             // GetInfoForm aForm = new GetInfoForm(cinema, time);
             //aForm.Show();
+        }
+        private void kahitAnoDaw(object sender, EventArgs e)
+        {
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,153 +52,153 @@ namespace PBL_1st_Sem_Gr12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            buttonClick(button1, "A1");
+            buttonClick("A1");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            buttonClick(button2, "A2");
+            //buttonClick(button2, "A2");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            buttonClick(button3, "A3");
+           // buttonClick(button3, "A3");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            buttonClick(button4, "A4");
+           // buttonClick(button4, "A4");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            buttonClick(button5, "A5");
+           // buttonClick(button5, "A5");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            buttonClick(button6, "A6");
+           // buttonClick(button6, "A6");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            buttonClick(button7, "A7");
+           // buttonClick(button7, "A7");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            buttonClick(button8, "A8");
+            //buttonClick(button8, "A8");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            buttonClick(button9, "A9");
+            //buttonClick(button9, "A9");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            buttonClick(button10, "A10");
+            //buttonClick(button10, "A10");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            buttonClick(button11, "B1");
+           // buttonClick(button11, "B1");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            buttonClick(button12, "B2");
+           // buttonClick(button12, "B2");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            buttonClick(button13, "B3");
+          //  buttonClick(button13, "B3");
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            buttonClick(button14, "B4");
+           // buttonClick(button14, "B4");
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            buttonClick(button15, "B5");
+           // buttonClick(button15, "B5");
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            buttonClick(button16, "B6");
+          //  buttonClick(button16, "B6");
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            buttonClick(button17, "B7");
+            //buttonClick(button17, "B7");
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            buttonClick(button18, "B8");
+           // buttonClick(button18, "B8");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            buttonClick(button19, "B9");
+           // buttonClick(button19, "B9");
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            buttonClick(button20, "B10");
+           // buttonClick(button20, "B10");
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            buttonClick(button21, "C1");
+          //  buttonClick(button21, "C1");
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            buttonClick(button22, "C2");
+            //buttonClick(button22, "C2");
 
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            buttonClick(button23, "C3");
+           // buttonClick(button23, "C3");
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            buttonClick(button24, "C4");
+           // buttonClick(button24, "C4");
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            buttonClick(button25, "C5");
+           // buttonClick(button25, "C5");
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            buttonClick(button26, "C6");
+          //  buttonClick(button26, "C6");
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            buttonClick(button27, "C7");
+          //  buttonClick(button27, "C7");
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            buttonClick(button28, "C8");
+          //  buttonClick(button28, "C8");
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            buttonClick(button29, "C9");
+            //buttonClick(button29, "C9");
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            buttonClick(button30, "C10");
+           // buttonClick(button30, "C10");
         }
 
         private Form activeForm = null;
@@ -208,20 +219,26 @@ namespace PBL_1st_Sem_Gr12
 
         private void SeatForm_Load(object sender, EventArgs e)
         {
-            //reader sa database
-            string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            string queryString = "SELECT SeatNumber FROM infoPBL;";
-            SqlCommand command = new SqlCommand(queryString, connection);
-            var reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                string Seat = reader["SeatNumber"].ToString();
-            }
-            reader.Close();
-            connection.Close();
-           
+        //    //reader sa database
+        //    string connectionString = "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = PBL; Integrated Security = True;";
+        //    SqlConnection connection = new SqlConnection(connectionString);
+        //    connection.Open();
+        //    string queryString = "SELECT SeatNumber FROM infoPBL;";
+        //    SqlCommand command = new SqlCommand(queryString, connection);
+        //    var reader = command.ExecuteReader();
+        //    while (reader.Read())
+        //    {
+        //        string seat = reader["SeatNumber"].ToString();
+        //        char[] x = { 'A', 'B', 'C' };
+        //        string numOnly = seat.Substring(1, seat.Length - 1);
+        //        string btn = "button" + numOnly;
+        //        Button button = new Button();
+        //        button.Name = btn;
+        //        MessageBox.Show(btn);
+        //        //buttonClick(button, seat);
+        //    }
+        //    reader.Close();
+        //    connection.Close();
         }
     }
 }
