@@ -134,12 +134,6 @@ namespace PBL_1st_Sem_Gr12
             panelForm.BringToFront();
             panelForm.Show();
         }
-
-        private void panelMain_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
            // panelMain.BringToFront();
@@ -333,11 +327,13 @@ namespace PBL_1st_Sem_Gr12
         private void c1AM_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            seat1Button.BringToFront();
         }
 
         private void c1PM_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            seat2Button.BringToFront();
         }
 
         private void cinemaTwoBtn_Click(object sender, EventArgs e)
@@ -348,11 +344,13 @@ namespace PBL_1st_Sem_Gr12
         private void c2AM_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            seat3Button.BringToFront();
         }
 
         private void c2PM_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            seat4Button.BringToFront();
         }
 
         private void ruleBtn_Click(object sender, EventArgs e)
@@ -366,10 +364,6 @@ namespace PBL_1st_Sem_Gr12
         }
 
         string time1 = "11:00AM", time2 = "4:00PM";
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
         private void buttonClick(string seatNumber, string cinema, string time)
         {
             string seatNum = seatNumber;
@@ -382,7 +376,6 @@ namespace PBL_1st_Sem_Gr12
                 }
             }
             openForm(new GetInfoForm(cinema, time, seatNum));
-            
         }
     }
 }

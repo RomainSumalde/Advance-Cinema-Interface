@@ -232,7 +232,7 @@
             this.buttonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHelp.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonHelp.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonHelp.Location = new System.Drawing.Point(0, 502);
+            this.buttonHelp.Location = new System.Drawing.Point(0, 493);
             this.buttonHelp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonHelp.Name = "buttonHelp";
             this.buttonHelp.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -253,7 +253,7 @@
             this.panelView.Location = new System.Drawing.Point(0, 127);
             this.panelView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelView.Name = "panelView";
-            this.panelView.Size = new System.Drawing.Size(251, 375);
+            this.panelView.Size = new System.Drawing.Size(251, 366);
             this.panelView.TabIndex = 4;
             // 
             // panel1
@@ -404,7 +404,6 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1044, 703);
             this.panelMain.TabIndex = 1;
-            this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint);
             // 
             // pictureBox3
             // 
@@ -1652,7 +1651,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(949, 389);
             this.panel2.TabIndex = 1;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button30
             // 
@@ -2099,7 +2097,7 @@
             this.panelHelp.Controls.Add(this.aboutUsBtn);
             this.panelHelp.Controls.Add(this.ruleBtn);
             this.panelHelp.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHelp.Location = new System.Drawing.Point(0, 548);
+            this.panelHelp.Location = new System.Drawing.Point(0, 539);
             this.panelHelp.Name = "panelHelp";
             this.panelHelp.Size = new System.Drawing.Size(251, 100);
             this.panelHelp.TabIndex = 6;
