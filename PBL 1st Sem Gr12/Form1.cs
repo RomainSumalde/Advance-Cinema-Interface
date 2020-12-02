@@ -25,6 +25,7 @@ namespace PBL_1st_Sem_Gr12
         {
             //Hides Panel of View and Help
             panelView.Visible = false;
+            panelHelp.Visible = false;
         }
 
         private void hideSubMenu()
@@ -32,11 +33,13 @@ namespace PBL_1st_Sem_Gr12
             //Hides if One of the Panel is Open
             if (panelView.Visible == true)
                 panelView.Visible = false;
+            if (panelHelp.Visible == true)
+                panelHelp.Visible = false;
         }
 
         private void showSubMenu(Panel subMenu)
         {
-            if (panelView.Visible == false)
+            if (subMenu.Visible == false)
             {
                 hideSubMenu();
                 subMenu.Visible = true;
@@ -53,6 +56,8 @@ namespace PBL_1st_Sem_Gr12
             this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             this.comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             panelMain.BringToFront();
+            hideSubMenu();
+
         }
         //View Button
         private void buttonView_Click(object sender, EventArgs e)
@@ -61,7 +66,7 @@ namespace PBL_1st_Sem_Gr12
         }
         private void buttonViewSeats_Click(object sender, EventArgs e)
         {
-            openForm(new SeatForm(panelMain));
+            //openForm(new SeatForm(panelMain));
             //SeatForm aForm = new SeatForm();
             //aForm.Show();
             hideSubMenu();
@@ -102,16 +107,16 @@ namespace PBL_1st_Sem_Gr12
                 seat4Button.BringToFront();
                 //openForm(new Seatform4(panelMain));
             }
-            if (time == " " || time2 == " ")
-            {
-                MessageBox.Show("Invalid Time Entry! Please Try Again.", "Invalid Entry", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            //if (time == " " || time2 == " ")
+            //{
+            //    MessageBox.Show("Invalid Time Entry! Please Try Again.", "Invalid Entry", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
         }
         //Help Button
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-
+            showSubMenu(panelHelp);
         }
 
         private Form activeForm = null;
@@ -318,6 +323,46 @@ namespace PBL_1st_Sem_Gr12
         {
             buttonClick("C10", cinema1, time1);
             panelMain.BringToFront();
+        }
+
+        private void cinemaOneBtn_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void c1AM_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void c1PM_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void cinemaTwoBtn_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void c2AM_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void c2PM_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void ruleBtn_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void aboutUsBtn_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
         }
 
         string time1 = "11:00AM", time2 = "4:00PM";
