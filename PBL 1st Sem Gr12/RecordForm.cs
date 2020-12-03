@@ -65,6 +65,9 @@ namespace PBL_1st_Sem_Gr12
             this.dataGridView1.DataSource = table;
             command.ExecuteNonQuery();
             connection.Close();
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+
         }
 
         private void button3_Click(object sender, EventArgs e)

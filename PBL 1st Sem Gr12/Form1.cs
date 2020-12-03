@@ -79,6 +79,7 @@ namespace PBL_1st_Sem_Gr12
             //RecordForm aForm = new RecordForm();
             //aForm.Show();
             hideSubMenu();
+            recordPanel.BringToFront();
         }
 
         //Submit Button
@@ -129,194 +130,207 @@ namespace PBL_1st_Sem_Gr12
             panelForm.TopLevel = false;
             //panelForm.FormBorderStyle = FormBorderStyle.None;
             panelForm.Dock = DockStyle.Fill;
-            panelMain.Controls.Add(panelForm);
-            panelMain.Tag = panelForm;
+            recordPanel.Controls.Add(panelForm);
+            recordPanel.Tag = panelForm;
             panelForm.BringToFront();
             panelForm.Show();
+            //recordPanel.BringToFront();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-           // panelMain.BringToFront();
+            comboBox1.Text = " ";
+            comboBox2.Text = " ";
+            pictureBox3.Visible = false;
+            this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            panelMain.BringToFront();
+            //hideSubMenu();
+            openForm(new RecordForm());
+
+            //RecordForm aForm = new RecordForm();
+            //aForm.Show();
+            hideSubMenu();
         }
-        string cinema1 = "1", cinema2 = "2", cinema3 = "3", cinema4 = "4";
+        string cinema1 = "1", cinema2 = "2";
+        //Cinema1SeatControl
         private void button1_Click(object sender, EventArgs e)
         {
-            buttonClick("A1", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A1", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            buttonClick("A2", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A2", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            buttonClick("A3", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A3", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            buttonClick("A4", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A4", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            buttonClick("A5", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A5", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            buttonClick("A6", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A6", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            buttonClick("A7", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A7", cinema1, time1, panel2);
+         //   panelMain.BringToFront();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            buttonClick("A8", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A8", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            buttonClick("A9", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A9", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            buttonClick("A10", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("A10", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            buttonClick("B1", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B1", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            buttonClick("B2", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B2", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            buttonClick("B3", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B3", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            buttonClick("B4", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B4", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            buttonClick("B5", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B5", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            buttonClick("B6", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B6", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            buttonClick("B7", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B7", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            buttonClick("B8", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B8", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            buttonClick("B9", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B9", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            buttonClick("B10", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("B10", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            buttonClick("C1", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C1", cinema1, time1, panel2);
+           // panelMain.BringToFront();
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            buttonClick("C2", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C2", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            buttonClick("C3", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C3", cinema1, time1, panel2);
+         //   panelMain.BringToFront();
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            buttonClick("C4", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C4", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            buttonClick("C5", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C5", cinema1, time1, panel2);
+         //   panelMain.BringToFront();
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            buttonClick("C6", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C6", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            buttonClick("C7", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C7", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            buttonClick("C8", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C8", cinema1, time1, panel2);
+          //  panelMain.BringToFront();
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            buttonClick("C9", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C9", cinema1, time1, panel2);
+         //   panelMain.BringToFront();
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            buttonClick("C10", cinema1, time1);
-            panelMain.BringToFront();
+            buttonClick("C10", cinema1, time1, panel2);
+       //     panelMain.BringToFront();
         }
 
         private void cinemaOneBtn_Click(object sender, EventArgs e)
@@ -358,16 +372,500 @@ namespace PBL_1st_Sem_Gr12
             hideSubMenu();
         }
 
+        private void button90_Click(object sender, EventArgs e)
+        {
+            buttonClick("A1", cinema1, time2, panel5);
+         //   panelMain.BringToFront();
+        }
+
+        private void button89_Click(object sender, EventArgs e)
+        {
+            buttonClick("A2", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+            
+        }
+
+        private void button87_Click(object sender, EventArgs e)
+        {
+            buttonClick("A3", cinema1, time2, panel5);
+         //   panelMain.BringToFront();
+        }
+
+        private void button84_Click(object sender, EventArgs e)
+        {
+            buttonClick("A4", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+            buttonClick("A5", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            buttonClick("A6", cinema1, time2, panel5);
+         //   panelMain.BringToFront();
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            buttonClick("A7", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            buttonClick("A8", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            buttonClick("A9", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            buttonClick("A10", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button88_Click(object sender, EventArgs e)
+        {
+            buttonClick("B1", cinema1, time2, panel5);
+         //   panelMain.BringToFront();
+        }
+
+        private void button85_Click(object sender, EventArgs e)
+        {
+            buttonClick("B2", cinema1, time2, panel5);
+         //   panelMain.BringToFront();
+        }
+
+        private void button82_Click(object sender, EventArgs e)
+        {
+            buttonClick("B3", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            buttonClick("B4", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            buttonClick("B5", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            buttonClick("B6", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            buttonClick("B7", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            buttonClick("B8", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+            buttonClick("B9", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            buttonClick("B10", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button86_Click(object sender, EventArgs e)
+        {
+            buttonClick("C1", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button83_Click(object sender, EventArgs e)
+        {
+            buttonClick("C2", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+            buttonClick("C3", cinema1, time2, panel5);
+          //  panelMain.BringToFront();
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            buttonClick("C4", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            buttonClick("C5", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            buttonClick("C6", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            buttonClick("C7", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            buttonClick("C8", cinema1, time2, panel5);
+            //panelMain.BringToFront();
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            buttonClick("C9", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            buttonClick("C10", cinema1, time2, panel5);
+           // panelMain.BringToFront();
+        }
+
         private void aboutUsBtn_Click(object sender, EventArgs e)
         {
             hideSubMenu();
         }
 
         string time1 = "11:00AM", time2 = "4:00PM";
-        private void buttonClick(string seatNumber, string cinema, string time)
+        //Cinema2SeatControl
+        private void button119_Click(object sender, EventArgs e)
+        {
+            buttonClick("A2", cinema2, time1, panel6);
+        }
+
+        private void button117_Click(object sender, EventArgs e)
+        {
+            buttonClick("A3", cinema2, time1, panel6);
+        }
+
+        private void button114_Click(object sender, EventArgs e)
+        {
+            buttonClick("A4", cinema2, time1, panel6);
+        }
+
+        private void button111_Click(object sender, EventArgs e)
+        {
+            buttonClick("A5", cinema2, time1, panel6);
+        }
+
+        private void button108_Click(object sender, EventArgs e)
+        {
+            buttonClick("A6", cinema2, time1, panel6);
+        }
+
+        private void button105_Click(object sender, EventArgs e)
+        {
+            buttonClick("A7", cinema2, time1, panel6);
+        }
+
+        private void button102_Click(object sender, EventArgs e)
+        {
+            buttonClick("A8", cinema2, time1, panel6);
+        }
+
+        private void button99_Click(object sender, EventArgs e)
+        {
+            buttonClick("A9", cinema2, time1, panel6);
+        }
+
+        private void button96_Click(object sender, EventArgs e)
+        {
+            buttonClick("A10", cinema2, time1, panel6);
+        }
+
+        private void button118_Click(object sender, EventArgs e)
+        {
+            buttonClick("B1", cinema2, time1, panel6);
+        }
+
+        private void button115_Click(object sender, EventArgs e)
+        {
+            buttonClick("B2", cinema2, time1, panel6);
+        }
+
+        private void button112_Click(object sender, EventArgs e)
+        {
+            buttonClick("B3", cinema2, time1, panel6);
+        }
+
+        private void button109_Click(object sender, EventArgs e)
+        {
+            buttonClick("B4", cinema2, time1, panel6);
+        }
+
+        private void button106_Click(object sender, EventArgs e)
+        {
+            buttonClick("B5", cinema2, time1, panel6);
+        }
+
+        private void button103_Click(object sender, EventArgs e)
+        {
+            buttonClick("B6", cinema2, time1, panel6);
+        }
+
+        private void button100_Click(object sender, EventArgs e)
+        {
+            buttonClick("B7", cinema2, time1, panel6);
+        }
+
+        private void button97_Click(object sender, EventArgs e)
+        {
+            buttonClick("B8", cinema2, time1, panel6);
+        }
+
+        private void button94_Click(object sender, EventArgs e)
+        {
+            buttonClick("B9", cinema2, time1, panel6);
+        }
+
+        private void button93_Click(object sender, EventArgs e)
+        {
+            buttonClick("B10", cinema2, time1, panel6);
+        }
+
+        private void button116_Click(object sender, EventArgs e)
+        {
+            buttonClick("C1", cinema2, time1, panel6);
+        }
+
+        private void button113_Click(object sender, EventArgs e)
+        {
+            buttonClick("C2", cinema2, time1, panel6);
+        }
+
+        private void button110_Click(object sender, EventArgs e)
+        {
+            buttonClick("C3", cinema2, time1, panel6);
+        }
+
+        private void button107_Click(object sender, EventArgs e)
+        {
+            buttonClick("C4", cinema2, time1, panel6);
+        }
+
+        private void button104_Click(object sender, EventArgs e)
+        {
+            buttonClick("C5", cinema2, time1, panel6);
+        }
+
+        private void button101_Click(object sender, EventArgs e)
+        {
+            buttonClick("C6", cinema2, time1, panel6);
+        }
+
+        private void button98_Click(object sender, EventArgs e)
+        {
+            buttonClick("C7", cinema2, time1, panel6);
+        }
+
+        private void button95_Click(object sender, EventArgs e)
+        {
+            buttonClick("C8", cinema2, time1, panel6);
+        }
+
+        private void button92_Click(object sender, EventArgs e)
+        {
+            buttonClick("C9", cinema2, time1, panel6);
+        }
+
+        private void button91_Click(object sender, EventArgs e)
+        {
+            buttonClick("C10", cinema2, time1, panel6);
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+            buttonClick("A1", cinema2, time2, panel3);
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+            buttonClick("A2", cinema2, time2, panel3);
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+            buttonClick("A3", cinema2, time2, panel3);
+        }
+
+        private void button54_Click(object sender, EventArgs e)
+        {
+            buttonClick("A4", cinema2, time2, panel3);
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            buttonClick("A5", cinema2, time2, panel3);
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            buttonClick("A6", cinema2, time2, panel3);
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            buttonClick("A7", cinema2, time2, panel3);
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            buttonClick("A8", cinema2, time2, panel3);
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            buttonClick("A9", cinema2, time2, panel3);
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            buttonClick("A10", cinema2, time2, panel3);
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+            buttonClick("B1", cinema2, time2, panel3);
+        }
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+            buttonClick("B2", cinema2, time2, panel3);
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+            buttonClick("B3", cinema2, time2, panel3);
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            buttonClick("B4", cinema2, time2, panel3);
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            buttonClick("B5", cinema2, time2, panel3);
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            buttonClick("B6", cinema2, time2, panel3);
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            buttonClick("B7", cinema2, time2, panel3);
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            buttonClick("B8", cinema2, time2, panel3);
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            buttonClick("B9", cinema2, time2, panel3);
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            buttonClick("B10", cinema2, time2, panel3);
+        }
+
+        private void button56_Click(object sender, EventArgs e)
+        {
+            buttonClick("C1", cinema2, time2, panel3);
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            buttonClick("C2", cinema2, time2, panel3);
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            buttonClick("C3", cinema2, time2, panel3);
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            buttonClick("C4", cinema2, time2, panel3);
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            buttonClick("C5", cinema2, time2, panel3);
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            buttonClick("C6", cinema2, time2, panel3);
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            buttonClick("C7", cinema2, time2, panel3);
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            buttonClick("C8", cinema2, time2, panel3);
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            buttonClick("C9", cinema2, time2, panel3);
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            buttonClick("C10", cinema2, time2, panel3);
+        }
+
+        private void button120_Click(object sender, EventArgs e)
+        {
+            buttonClick("A1", cinema2, time1, panel6);
+        }
+
+        private void buttonClick(string seatNumber, string cinema, string time, Panel panelName)
         {
             string seatNum = seatNumber;
-            foreach (Control button in panel2.Controls.OfType<Button>())
+            string ciNum = cinema;
+            string timeNum = time;
+            foreach (Control button in panelName.Controls.OfType<Button>())
             {
                 if (button.Text == seatNum)
                 {
@@ -376,6 +874,7 @@ namespace PBL_1st_Sem_Gr12
                 }
             }
             openForm(new GetInfoForm(cinema, time, seatNum));
+            recordPanel.BringToFront();
         }
     }
 }
