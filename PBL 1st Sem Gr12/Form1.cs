@@ -20,7 +20,6 @@ namespace PBL_1st_Sem_Gr12
             InitializeComponent();
             design();
         }
-
         private void design()
         {
             //Hides Panel of View and Help
@@ -57,6 +56,11 @@ namespace PBL_1st_Sem_Gr12
             this.comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             panelMain.BringToFront();
             hideSubMenu();
+            panelMain.Visible = true;
+            seat1Button.Visible = true;
+            seat2Button.Visible = true;
+            seat3Button.Visible = true;
+            seat4Button.Visible = true;
 
         }
         //View Button
@@ -66,20 +70,13 @@ namespace PBL_1st_Sem_Gr12
         }
         private void buttonViewSeats_Click(object sender, EventArgs e)
         {
-            //openForm(new SeatForm(panelMain));
-            //SeatForm aForm = new SeatForm();
-            //aForm.Show();
             hideSubMenu();
         }
 
         private void buttonViewRecords_Click(object sender, EventArgs e)
         {
-            openForm(new RecordForm());
-       
-            //RecordForm aForm = new RecordForm();
-            //aForm.Show();
-            hideSubMenu();
             recordPanel.BringToFront();
+            hideSubMenu();
         }
 
         //Submit Button
@@ -93,15 +90,11 @@ namespace PBL_1st_Sem_Gr12
             if (time == "4:00PM")
             {
                 seat2Button.BringToFront();
-                //openForm(new SeatForm2(panelMain));
-                //SeatForm2 aForm = new SeatForm2();
-                //aForm.Show();
             }
             string time2 = comboBox2.Text;
             if (time2 == "11:00AM")
             {
                 seat3Button.BringToFront();
-                //openForm(new Seatform3(panelMain));
             }
             if (time2 == "4:00PM")
             {
@@ -128,7 +121,7 @@ namespace PBL_1st_Sem_Gr12
                 activeForm.Close();
             activeForm = panelForm;
             panelForm.TopLevel = false;
-            //panelForm.FormBorderStyle = FormBorderStyle.None;
+            panelForm.FormBorderStyle = FormBorderStyle.None;
             panelForm.Dock = DockStyle.Fill;
             recordPanel.Controls.Add(panelForm);
             recordPanel.Tag = panelForm;
@@ -555,7 +548,13 @@ namespace PBL_1st_Sem_Gr12
 
         private void aboutUsBtn_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            openForm(new SeatForm());
+            panelMain.Visible = false;
+            seat1Button.Visible = false;
+            seat2Button.Visible = false;
+            seat3Button.Visible = false;
+            seat4Button.Visible = false;
+            //hideSubMenu();
         }
 
         string time1 = "11:00AM", time2 = "4:00PM";

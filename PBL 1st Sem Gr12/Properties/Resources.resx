@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="avengers-infinity-war-poster-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avengers-infinity-war-poster-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading sht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading sht.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="joker movie poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\joker movie poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,19 +133,16 @@
   <data name="avengers-endgame-movie-poster-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\avengers-endgame-movie-poster-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="black panther movie poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black panther movie poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avengers-infinity-war-poster-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avengers-infinity-war-poster-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bumblebee movie poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bumblebee movie poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="loading sht" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loading sht.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="About_Us Form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About_Us Form.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
