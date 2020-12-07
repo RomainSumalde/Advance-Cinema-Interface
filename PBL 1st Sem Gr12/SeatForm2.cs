@@ -21,5 +21,10 @@ namespace PBL_1st_Sem_Gr12
         {
             this.Close();
         }
+
+        private void SeatForm2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

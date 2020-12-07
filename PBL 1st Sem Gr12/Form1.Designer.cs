@@ -190,6 +190,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textboxxx = new System.Windows.Forms.TextBox();
             this.recordPanel = new System.Windows.Forms.Panel();
+            this.rulePanel = new System.Windows.Forms.Panel();
+            this.aboutPanel = new System.Windows.Forms.Panel();
             this.panelSide.SuspendLayout();
             this.panelHelp.SuspendLayout();
             this.panelView.SuspendLayout();
@@ -2116,18 +2118,36 @@
             this.recordPanel.Size = new System.Drawing.Size(771, 570);
             this.recordPanel.TabIndex = 5;
             // 
+            // rulePanel
+            // 
+            this.rulePanel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.rulePanel.Location = new System.Drawing.Point(193, 0);
+            this.rulePanel.Name = "rulePanel";
+            this.rulePanel.Size = new System.Drawing.Size(771, 570);
+            this.rulePanel.TabIndex = 6;
+            // 
+            // aboutPanel
+            // 
+            this.aboutPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.aboutPanel.Location = new System.Drawing.Point(193, 0);
+            this.aboutPanel.Name = "aboutPanel";
+            this.aboutPanel.Size = new System.Drawing.Size(771, 570);
+            this.aboutPanel.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 570);
             this.Controls.Add(this.panelSide);
-            this.Controls.Add(this.seat4Button);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.seat3Button);
-            this.Controls.Add(this.seat1Button);
             this.Controls.Add(this.seat2Button);
             this.Controls.Add(this.recordPanel);
-            this.Controls.Add(this.panelMain);
+            this.Controls.Add(this.seat1Button);
+            this.Controls.Add(this.seat4Button);
+            this.Controls.Add(this.rulePanel);
+            this.Controls.Add(this.aboutPanel);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(978, 616);
             this.MinimumSize = new System.Drawing.Size(942, 574);
@@ -2325,6 +2345,8 @@
         private System.Windows.Forms.Button aboutUsBtn;
         private System.Windows.Forms.Button ruleBtn;
         private System.Windows.Forms.Panel recordPanel;
+        private System.Windows.Forms.Panel rulePanel;
+        private System.Windows.Forms.Panel aboutPanel;
     }
 }
 

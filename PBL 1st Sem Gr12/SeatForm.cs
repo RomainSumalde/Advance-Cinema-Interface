@@ -21,7 +21,7 @@ namespace PBL_1st_Sem_Gr12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
     }
 }

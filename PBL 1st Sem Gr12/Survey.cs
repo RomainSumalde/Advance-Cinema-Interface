@@ -204,9 +204,16 @@ namespace PBL_1st_Sem_Gr12
             checkBox5.Checked = false; checkBox6.Checked = false; checkBox7.Checked = false; checkBox8.Checked = false;
             checkBox9.Checked = false; checkBox10.Checked = false; checkBox11.Checked = false;
             this.Close();
+            SeatForm2 aForm = new SeatForm2();
+            aForm.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Survey_Load(object sender, EventArgs e)
         {
 
         }

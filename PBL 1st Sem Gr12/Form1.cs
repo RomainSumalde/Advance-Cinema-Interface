@@ -115,16 +115,16 @@ namespace PBL_1st_Sem_Gr12
 
         private Form activeForm = null;
 
-        private void openForm(Form panelForm)
+        private void openForm(Form panelForm, Panel panelName)
         {
-            if (activeForm != null)
-                activeForm.Close();
+           // if (activeForm != null)
+              //  activeForm.Close();
             activeForm = panelForm;
             panelForm.TopLevel = false;
             panelForm.FormBorderStyle = FormBorderStyle.None;
             panelForm.Dock = DockStyle.Fill;
-            recordPanel.Controls.Add(panelForm);
-            recordPanel.Tag = panelForm;
+            panelName.Controls.Add(panelForm);
+            panelName.Tag = panelForm;
             panelForm.BringToFront();
             panelForm.Show();
             //recordPanel.BringToFront();
@@ -138,8 +138,9 @@ namespace PBL_1st_Sem_Gr12
             this.comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             panelMain.BringToFront();
             //hideSubMenu();
-            openForm(new RecordForm());
-
+            openForm(new RecordForm(), recordPanel);
+            openForm(new SeatForm2(), rulePanel);
+            openForm(new SeatForm(), aboutPanel);
             //RecordForm aForm = new RecordForm();
             //aForm.Show();
             hideSubMenu();
@@ -362,7 +363,9 @@ namespace PBL_1st_Sem_Gr12
 
         private void ruleBtn_Click(object sender, EventArgs e)
         {
-            openForm(new SeatForm2());
+            //SeatForm2 aForm = new SeatForm2();
+            //aForm.Show();
+            rulePanel.BringToFront();
             hideSubMenu();
         }
 
@@ -549,8 +552,8 @@ namespace PBL_1st_Sem_Gr12
 
         private void aboutUsBtn_Click(object sender, EventArgs e)
         {
-            openForm(new SeatForm());
-            //hideSubMenu();
+            aboutPanel.BringToFront();
+            hideSubMenu();
         }
 
         string time1 = "11:00AM", time2 = "4:00PM";
@@ -868,8 +871,11 @@ namespace PBL_1st_Sem_Gr12
                     button.Enabled = false;
                 }
             }
-            openForm(new GetInfoForm(cinema, time, seatNum));
-            recordPanel.BringToFront();
+            //openForm(new GetInfoForm(cinema, time, seatNum), recordPanel);
+            //recordPanel.BringToFront();
+            GetInfoForm aForm = new GetInfoForm(cinema, time, seatNum);
+            aForm.Show();
+            panelMain.BringToFront();
         }
     }
 }
