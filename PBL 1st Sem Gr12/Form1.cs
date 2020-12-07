@@ -362,6 +362,7 @@ namespace PBL_1st_Sem_Gr12
 
         private void ruleBtn_Click(object sender, EventArgs e)
         {
+            openForm(new SeatForm2());
             hideSubMenu();
         }
 
@@ -549,11 +550,6 @@ namespace PBL_1st_Sem_Gr12
         private void aboutUsBtn_Click(object sender, EventArgs e)
         {
             openForm(new SeatForm());
-            panelMain.Visible = false;
-            seat1Button.Visible = false;
-            seat2Button.Visible = false;
-            seat3Button.Visible = false;
-            seat4Button.Visible = false;
             //hideSubMenu();
         }
 

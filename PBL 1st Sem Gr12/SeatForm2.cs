@@ -17,5 +17,9 @@ namespace PBL_1st_Sem_Gr12
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
